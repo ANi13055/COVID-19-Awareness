@@ -1,4 +1,4 @@
-# CORON<h1 style="color: red;">AVI</h1>D
+# CORONAVID
 <p>Few information about COVID-19</p>
 
 ### Source for Symptoms test
