@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Symptom Checker | COVID-19</title>
+  <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <main>
+    <!-- navigation bar -->
+    <navigation class="nav">
+      <h1 class="nav-title">
+        <a href="#about">
+          <p>CORON<span>AVI</span>D</p>
+        </a>
+      </h1>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#spread">How Spreads?</a>
+        </li>
+        <li class="nav-item">
+          <a href="#symptoms">Symptoms</a>
+        </li>
+        <li class="nav-item">
+          <a href="#protect">How to Protect?</a>
+        </li>
+        <li class="nav-item">
+          <a href="#know-more">Know More</a>
+        </li>
+      </ul>
+    </navigation>
+
+    <!-- about-content -->
+    <header id="about">
+      <div class="paragraph-1">
+        <h3>COVID-19</h3>
+        <p>Keep Yourself Home Quarantined</p>
+        <p>
+          Coronavirus disease (COVID-19) is an infectious disease caused by a
+          newly discovered coronavirus.
+        </p>
+
+        <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover"
+          data-placement="bottom"
+          data-content="COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.">
+          See more
+        </button>
+      </div>
+
+      <div class="mask-img">
+        <img src="assets/mask-man.svg" alt="mask-man" />
+      </div>
+      <div class="mask-img">
+        <img src="assets/mask-woman.svg" alt="mask-woman" />
+      </div>
+    </header>
+
+    <!-- how it spread? -->
+    <div class="spread" id="spread">
+      <h1>How Can It Spreads</h1>
+      <p>
+        WHO is assessing ongoing research on the ways COVID-19 is spread and
+        will continue to share updated findings.
+      </p>
+
+      <div class="spread-list">
+        <span class="spread-items">
+          <img src="/assets/cold-drinks.jpg" alt="cold-drinks" />
+          <h3>Contaminated Objects & Sustances</h3>
+          <p>
+            Flu viruses can cause mild to severe illness. Learn common
+            symptoms and complications.
+          </p>
+        </span>
+
+        <span class="spread-items">
+          <img src="/assets/sneezing-boy.jpg" alt="sneezing-boy" />
+          <h3>Air Transmission of Droplets</h3>
+          <p>A number of tests are available to detect influenza viruses.</p>
+        </span>
+
+        <span class="spread-items">
+          <img src="/assets/handshake.jpg" alt="handshake" />
+          <h3>Transmission Among Humans</h3>
+          <p>
+            Flu and the common cold are respiratory illnesses but they are
+            caused by different viruses.
+          </p>
+        </span>
+      </div>
+    </div>
+
+    <!-- symptom-content -->
+    <div class="curve">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fff" fill-opacity="1"
+          d="M0,288L40,261.3C80,235,160,181,240,160C320,139,400,149,480,170.7C560,192,640,224,720,240C800,256,880,256,960,250.7C1040,245,1120,235,1200,213.3C1280,192,1360,160,1400,144L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+        </path>
+      </svg>
+
+      <div class="symptoms" id="symptoms">
+        <img src="/assets/symptoms.png" alt="symptoms" />
+
+        <div class="about-symptoms">
+          <h1>Symptoms of Coronavirus</h1>
+
+          <p>
+            Those who are infected with COVID-19 may have little to no
+            symptoms. You may not know you have symptoms of COVID-19 because
+            they are similar to a cold or flu.
+          </p>
+
+          <p>
+            Symptoms may take up to 14 days to appear after exposure to
+            COVID-19. This is the longest known infectious period for this
+            disease. We are currently investigating if the virus can be
+            transmitted to others if someone is not showing symptoms. While
+            experts believe that it is possible, it is considered less common.
+          </p>
+
+          <p>Symptoms have included:</p>
+
+          <div class="symptoms-list">
+            <ul>
+              <li class="symptoms-item">Fever</li>
+              <li class="symptoms-item">Headache</li>
+              <li class="symptoms-item">Runny Nose</li>
+            </ul>
+            <ul>
+              <li class="symptoms-item">Throat Pain</li>
+              <li class="symptoms-item">Shaking Chills</li>
+              <li class="symptoms-item">Dypsnoea</li>
+            </ul>
+          </div>
+
+          <p>In severe cases, infection can lead to death.</p>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fff" fill-opacity="1"
+          d="M0,256L40,218.7C80,181,160,107,240,64C320,21,400,11,480,32C560,53,640,107,720,144C800,181,880,203,960,197.3C1040,192,1120,160,1200,165.3C1280,171,1360,213,1400,234.7L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+
+    <!-- protect -->
+    <div class="protect" id="protect">
+      <div class="protect-head">
+        <h1>Take steps to protect yourself</h1>
+        <p>
+          There is currently no vaccine to prevent coronavirus disease 2019
+          (COVID-19). The best way to prevent illness is to avoid being
+          exposed to this virus & protect yourself.
+        </p>
+      </div>
+
+      <div class="wash-hand-box protect-content-box">
+        <div class="wash-hand-content protect-content">
+          <h3>Clean your hands often</h3>
+
+          <ul class="protect-list">
+            <li class="protect-items">
+              Wash your hands often with soap and water for at least 20
+              seconds especially after you have been in public place, or after
+              blowing your nose, coughing or snizzing.
+            </li>
+            <li class="protect-items">
+              If soap and water are not really available, use a hand sanitizer
+              that contains at least 60% alcohol. Cover all surfaces of your
+              hands and rub them together until they feel dry.
+            </li>
+            <li class="protect-items">
+              Avoid touching your eyes, nose and mouth with unwashed hands.
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
+            Watch
+            <svg class="bi bi-play-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 010 1.393z" />
+            </svg>
+          </button>
+
+          <!-- video -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenter">
+                    Wash Hand Properly!
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <video id="model-movie" width="100%" height="auto" controls>
+                    <source src="/assets/Handwashing.mp4" type="video/mp4" />
+                    <source src="/assets/Handwashing.ogg" type="video/ogg" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img src="/assets/wash-hand.jpg" alt="wash-hand" />
+      </div>
+
+      <div class="gather-box protect-content-box">
+        <img src="/assets/gathering.jpg" alt="gathering" />
+
+        <div class="gather-content protect-content">
+          <h3>Avoid close contact</h3>
+
+          <ul class="protect-list">
+            <li class="protect-items">
+              Avoid close contact with people who are sick.
+            </li>
+            <li class="protect-items">
+              Put distance between yourself and other people if COVID-19 is
+              spreading in your community. This is especially important for
+              people who are at higher risk of getting very sick.
+            </li>
+          </ul>
+          <button type="button" class="btn btn-info" data-container="body" data-toggle="popover" data-placement="right"
+            data-content="Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.
+            Why? Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19.">
+            See more
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- cards -->
+    <div class="card-box" id="know-more">
+      <div class="cards c1" data-toggle="modal" data-target=".bd-example-modal-xl">
+        <h4>1</h4>
+        <h3>Do's and Don't for COVID-19</h3>
+        <p>Know More</p>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade bd-example-modal-xl" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Do's and Don't
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body flex-modal">
+              <div class="flex-box">
+                <div class="flex-header">
+                  <p>Do's</p>
+                </div>
+
+                <div class="flex-body">
+                  <ul>
+                    <li>
+                      Cover your nose and mouth with disposable tissue or
+                      handkerchief
+                    </li>
+                    <li>Frequently wash your hands with soap and water</li>
+                    <li>Avoid crowded places</li>
+                    <li>
+                      Person suffering from Influenza like illness must be
+                      confined at home
+                    </li>
+                    <li>
+                      Stay more than one arm's length distance from persons
+                      sick with flu
+                    </li>
+                    <li>Take adequate sleep and rest</li>
+                    <li>
+                      Drink plenty of water/liquids and eat nutritious food
+                    </li>
+                    <li>
+                      Person suspected with Influenza like illness must
+                      consult doctor
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="flex-box">
+                <div class="flex-header">
+                  <p>Don't</p>
+                </div>
+
+                <div class="flex-body">
+                  <ul>
+                    <li>
+                      Touching eyes, nose or mouth with unwashed hands while
+                      coughing or sneezing
+                    </li>
+                    <li>Hugging and shaking hands while greeting</li>
+                    <li>Spitting in public places</li>
+                    <li>Taking medicines without consulting doctor</li>
+                    <li>
+                      Disposal of used napkin or tissue paper in open areas
+                    </li>
+                    <li>
+                      Touching surfaces usually used by public (Railing, door,
+                      gates, etc)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Que Button trigger modal -->
+      <div class="cards c2" data-toggle="modal" data-target="#exampleModalScrollable">
+        <h4>2</h4>
+        <h3>Q&A on Corona Virus</h3>
+        <p>Know More</p>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">
+                Q&A on Corona Virus
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- que1 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample1" role="button"
+                  aria-expanded="false" aria-controls="collapseExample1">
+                  1. What is COVID-19?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample1">
+                  <div class="card-body">
+                    COVID-19 is the infectious disease caused by the most
+                    recently discovered coronavirus. This new virus and
+                    disease were unknown before the outbreak began in Wuhan,
+                    China, in December 2019.
+                  </div>
+                </div>
+              </div>
+
+              <!-- que2 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample2" role="button"
+                  aria-expanded="false" aria-controls="collapseExample2">
+                  2. How likely am I to catch COVID-19?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample2">
+                  <div class="card-body">
+                    <p>
+                      The risk depends on where you are - and more
+                      specifically, whether there is a COVID-19 outbreak
+                      unfolding there.
+                    </p>
+                    <p>
+                      For most people in most locations the risk of catching
+                      COVID-19 is still low. However, there are now places
+                      around the world (cities or areas) where the disease is
+                      spreading. For people living in, or visiting, these
+                      areas the risk of catching COVID-19 is higher.
+                      Governments and health authorities are taking vigorous
+                      action every time a new case of COVID-19 is identified.
+                      Be sure to comply with any local restrictions on travel,
+                      movement or large gatherings. Cooperating with disease
+                      control efforts will reduce your risk of catching or
+                      spreading COVID-19.
+                    </p>
+                    <p>
+                      COVID-19 outbreaks can be contained and transmission
+                      stopped, as has been shown in China and some other
+                      countries. Unfortunately, new outbreaks can emerge
+                      rapidly. It’s important to be aware of the situation
+                      where you are or intend to go. WHO publishes daily
+                      updates on the COVID-19 situation worldwide.
+                    </p>
+                    <p>
+                      You can see these at
+                      <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports"
+                        target="_blank" rel="noopener noreferrer">This</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- que3 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample3" role="button"
+                  aria-expanded="false" aria-controls="collapseExample3">
+                  3. Should I worry about COVID-19?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample3">
+                  <div class="card-body">
+                    <p>
+                      Illness due to COVID-19 infection is generally mild,
+                      especially for children and young adults. However, it
+                      can cause serious illness: about 1 in every 5 people who
+                      catch it need hospital care. It is therefore quite
+                      normal for people to worry about how the COVID-19
+                      outbreak will affect them and their loved ones.
+                    </p>
+                    <p>
+                      We can channel our concerns into actions to protect
+                      ourselves, our loved ones and our communities. First and
+                      foremost among these actions is regular and thorough
+                      hand-washing and good respiratory hygiene. Secondly,
+                      keep informed and follow the advice of the local health
+                      authorities including any restrictions put in place on
+                      travel, movement and gatherings.
+                    </p>
+                    <p>
+                      Learn more about how to protect yourself at
+                      <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+                        target="_blank" rel="noopener noreferrer">This</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- que4 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample4" role="button"
+                  aria-expanded="false" aria-controls="collapseExample4">
+                  4. Who is at risk of developing severe illness?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample4">
+                  <div class="card-body">
+                    While we are still learning about how COVID-2019 affects
+                    people, older persons and persons with pre-existing
+                    medical conditions (such as high blood pressure, heart
+                    disease, lung disease, cancer or diabetes) appear to
+                    develop serious illness more often than others.
+                  </div>
+                </div>
+              </div>
+
+              <!-- que5 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample5" role="button"
+                  aria-expanded="false" aria-controls="collapseExample5">
+                  5. Are antibiotics effective in preventing or treating the
+                  COVID-19?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample5">
+                  <div class="card-body">
+                    No. Antibiotics do not work against viruses, they only
+                    work on bacterial infections. COVID-19 is caused by a
+                    virus, so antibiotics do not work. Antibiotics should not
+                    be used as a means of prevention or treatment of COVID-19.
+                    They should only be used as directed by a physician to
+                    treat a bacterial infection.
+                  </div>
+                </div>
+              </div>
+
+              <!-- que6 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample6" role="button"
+                  aria-expanded="false" aria-controls="collapseExample6">
+                  6. Should I wear a mask to protect myself?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample6">
+                  <div class="card-body">
+                    <p>
+                      Only wear a mask if you are ill with COVID-19 symptoms
+                      (especially coughing) or looking after someone who may
+                      have COVID-19. Disposable face mask can only be used
+                      once. If you are not ill or looking after someone who is
+                      ill then you are wasting a mask. There is a world-wide
+                      shortage of masks, so WHO urges people to use masks
+                      wisely.
+                    </p>
+                    <p>
+                      WHO advises rational use of medical masks to avoid
+                      unnecessary wastage of precious resources and mis-use of
+                      masks
+                      <a
+                        href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks">(see
+                        Advice on the use of masks)</a>.
+                    </p>
+                    <p>
+                      The most effective ways to protect yourself and others
+                      against COVID-19 are to frequently clean your hands,
+                      cover your cough with the bend of elbow or tissue and
+                      maintain a distance of at least 1 meter (3 feet) from
+                      people who are coughing or sneezing. See
+                      <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks"
+                        target="_blank">basic protective measures against the new
+                        coronavirus</a>
+                      for more information.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- que7 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample7" role="button"
+                  aria-expanded="false" aria-controls="collapseExample7">
+                  7. How to put on, use, take off and dispose of a mask?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample7">
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        Remember, a mask should only be used by health
+                        workers, care takers, and individuals with respiratory
+                        symptoms, such as fever and cough.
+                      </li>
+                      <li>
+                        Before touching the mask, clean hands with an
+                        alcohol-based hand rub or soap and water
+                      </li>
+                      <li>
+                        Take the mask and inspect it for tears or holes.
+                      </li>
+                      <li>
+                        Orient which side is the top side (where the metal
+                        strip is).
+                      </li>
+                      <li>
+                        Ensure the proper side of the mask faces outwards (the
+                        coloured side).
+                      </li>
+                      <li>
+                        Place the mask to your face. Pinch the metal strip or
+                        stiff edge of the mask so it moulds to the shape of
+                        your nose.
+                      </li>
+                      <li>
+                        Pull down the mask’s bottom so it covers your mouth
+                        and your chin.
+                      </li>
+                      <li>
+                        After use, take off the mask; remove the elastic loops
+                        from behind the ears while keeping the mask away from
+                        your face and clothes, to avoid touching potentially
+                        contaminated surfaces of the mask.
+                      </li>
+                      <li>
+                        Discard the mask in a closed bin immediately after
+                        use.
+                      </li>
+                      <li>
+                        Perform hand hygiene after touching or discarding the
+                        mask – Use alcohol-based hand rub or, if visibly
+                        soiled, wash your hands with soap and water.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- que8 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample89" role="button"
+                  aria-expanded="false" aria-controls="collapseExample89">
+                  8. How long is the incubation period for COVID-19?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample89">
+                  <div class="card-body">
+                    The “incubation period” means the time between catching
+                    the virus and beginning to have symptoms of the disease.
+                    Most estimates of the incubation period for COVID-19 range
+                    from 1-14 days, most commonly around five days. These
+                    estimates will be updated as more data become available.
+                  </div>
+                </div>
+              </div>
+
+              <!-- que9 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample9" role="button"
+                  aria-expanded="false" aria-controls="collapseExample9">
+                  9. Is it safe to receive a package from any area where
+                  COVID-19 has been reported?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample9">
+                  <div class="card-body">
+                    Yes. The likelihood of an infected person contaminating
+                    commercial goods is low and the risk of catching the virus
+                    that causes COVID-19 from a package that has been moved,
+                    travelled, and exposed to different conditions and
+                    temperature is also low.
+                  </div>
+                </div>
+              </div>
+
+              <!-- que10 -->
+              <div class="card">
+                <div class="card-header" id="headingtwo" data-toggle="collapse" href="#collapseExample10" role="button"
+                  aria-expanded="false" aria-controls="collapseExample10">
+                  10. Is COVID-19 airborne?
+                </div>
+                <div class="panel-collapse collapse in" id="collapseExample10">
+                  <div class="card-body">
+                    <p>
+                      The virus that causes COVID-19 is mainly transmitted
+                      through droplets generated when an infected person
+                      coughs, sneezes, or speaks.
+                      <strong>
+                        These droplets are too heavy to hang in the air. They
+                        quickly fall on floors or surfaces.</strong>
+                    </p>
+                    <p>
+                      You can be infected by breathing in the virus if you are
+                      within 1 metre of a person who has COVID-19, or by
+                      touching a contaminated surface and then touching your
+                      eyes, nose or mouth before washing your hands.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://www.covidvisualizer.com" target="_blank">
+        <div class="cards c3">
+          <h4>3</h4>
+          <h3>Status of COVID-19 on Globe</h3>
+          <p>Know More</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- test -->
+    <div class="test-content">
+      <div class="test-box">
+        <div class="inner-test">
+          <h2>Need to Test COViD-19?</h2>
+          <p>Its anonymous and don't sharing your data with anyone.</p>
+        </div>
+        <div class="test-btn">
+          <a href="https://symptomate.com/covid19/checkup/en/#0-99990" target="_blank">
+            <button type="button" class="btn btn-dark">
+              Let's Check
+            </button>
+          </a>
+          <br />
+          <span>*Source Symptomate.</span>
+        </div>
+
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer-copy">
+        <script>
+          var theDate = new Date();
+          document.write(theDate.getFullYear());
+        </script>
+        &copy; Aninonymous
+      </div>
+      <ul class="footer-list">
+        <li>
+          <a href="https://github.com/ANi13055" target="_blank" rel="noopener noreferrer"><img class="footer-icon"
+              src="assets/icons/Github.png" alt="Github" /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_anichauhan_" target="_blank" rel="noopener noreferrer"><img
+              class="footer-icon" src="assets/icons/Instagram.png" alt="Instagram" /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Aniketc13055" target="_blank" rel="noopener noreferrer"><img class="footer-icon"
+              src="assets/icons/Twitter.png" alt="Twitter" /></a>
+
+        </li>
+      </ul>
+    </footer>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
